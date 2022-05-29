@@ -1,12 +1,10 @@
 const prompt = require("prompt-sync")({ sigint: true });
 
-// funciones
+// Declaracion de funciones
 
 function sumar (n1,n2){
     return n1 + n2;
 }
-
-//console.log(sumar(2,54));
 
 function restar (n1,n2){
     return n1 - n2;
@@ -31,7 +29,7 @@ function calcularPorcentaje(n1,n2){
 return (n1*n2)/100;
 }
 
-
+// inicio programa
 
 
 console.log("-------------- Testeo de Operaciones / Calculadora --------------");
