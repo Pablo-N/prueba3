@@ -1,7 +1,7 @@
 // Sumar:
 function sumar (x, y){
-    //return x + y;
-//}
+    return x + y;
+}
 //let x = 10;
 //let y = 4;
 //console.log('resultadoSuma' + ' ' + sumar (x, y));
@@ -27,8 +27,8 @@ const prompt = require("prompt-sync")({ sigint: true });
 let numeroA
 let numeroB
 
-numeroA = prompt('IngreseNumeroA');
-numeroB = prompt('IngreseNumeroB');
+numeroA = parseInt (prompt('IngreseNumeroA'));
+numeroB = parseInt (prompt('IngreseNumeroB'));
 
 console.log(sumar(numeroA, numeroB));
 console.log(restar(numeroA, numeroB));
